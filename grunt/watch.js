@@ -14,7 +14,7 @@ module.exports = {
 
     scripts: {
         files: [
-            'src/scripts/*.js'
+            'src/js/*.js'
         ],
         tasks: [
             'jshint',
@@ -24,7 +24,7 @@ module.exports = {
 
     styles: {
         files: [
-            'src/styles/*.scss'
+            'src/scss/*.scss'
         ],
         tasks: [
             'sass:dev'
