@@ -1,32 +1,11 @@
 module.exports = {
-
-    // Development settings
     dev: {
-        options: {
-            outputStyle: 'nested',
-            sourceMap: true
-        },
-        files: [{
-            expand: true,
-            cwd: 'src/scss',
-            src: ['*.scss'],
-            dest: 'dist/scss',
-            ext: '.css'
-        }]
-    },
-
-    // Production settings
-    prod: {
-        options: {
-            outputStyle: 'compressed',
-            sourceMap: false
-        },
-        files: [{
-            expand: true,
-            cwd: 'src/scss',
-            src: ['*.scss'],
-            dest: 'dist/scss',
-            ext: '.css'
-        }]
+	options: {
+		loadPath: '/usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/'
+	},
+        files: {
+            'dist/css/screen.css':'src/scss/screen.scss'
+        }
     }
+
 };

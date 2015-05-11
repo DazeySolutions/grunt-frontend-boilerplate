@@ -1,5 +1,7 @@
 module.exports = {
     all: [
-        "dist/"
+        "dist/assets/fonts/",
+        "dist/css/",
+        "dist/js/"
     ]
 };
